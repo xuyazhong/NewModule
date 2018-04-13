@@ -1,0 +1,6 @@
+rootProject.name = 'NewModule'
+
+include ':app', ':test'
+
+//include ':react-native-record-video'
+//project(':react-native-record-video').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-record-video/android')
