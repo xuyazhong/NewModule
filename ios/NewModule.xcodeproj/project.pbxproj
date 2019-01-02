@@ -22,7 +22,25 @@
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		873587C1207DF6D000E2E6E0 /* libRecordVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873587C0207DF69F00E2E6E0 /* libRecordVideo.a */; };
+		877B0FF021ACDEF200A9FEF7 /* ESP.m in Sources */ = {isa = PBXBuildFile; fileRef = 877B0FEF21ACDEF200A9FEF7 /* ESP.m */; };
+		877B0FF821ACDF2600A9FEF7 /* ESP_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 877B0FF421ACDF2600A9FEF7 /* ESP_Helper.m */; };
+		877B0FF921ACDF2600A9FEF7 /* libEsptouch_v0.3.5.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 877B0FF621ACDF2600A9FEF7 /* libEsptouch_v0.3.5.3.a */; };
+		87A0B24D21BE743500A37C11 /* BLETools.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A0B24C21BE743500A37C11 /* BLETools.m */; };
+		87A0B25021BE745F00A37C11 /* BLEModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A0B24F21BE745F00A37C11 /* BLEModule.m */; };
+		87B11E672084A68C00D06E0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B11E402084A68C00D06E0E /* UIKit.framework */; };
+		87B11E692084A69B00D06E0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B11E682084A69B00D06E0E /* CoreGraphics.framework */; };
+		87B11E6B2084A6A400D06E0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B11E6A2084A6A400D06E0E /* Foundation.framework */; };
+		87F6213C2084A3FD00C570FF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F621232084A3FD00C570FF /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		87F6213D2084A3FD00C570FF /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F6212C2084A3FD00C570FF /* ViewController+MASAdditions.m */; };
+		87F6213E2084A3FD00C570FF /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F621302084A3FD00C570FF /* MASCompositeConstraint.m */; };
+		87F6213F2084A3FD00C570FF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F621312084A3FD00C570FF /* MASConstraintMaker.m */; };
+		87F621402084A3FD00C570FF /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F621322084A3FD00C570FF /* MASLayoutConstraint.m */; };
+		87F621412084A3FD00C570FF /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F621332084A3FD00C570FF /* NSArray+MASAdditions.m */; };
+		87F621422084A3FD00C570FF /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F621342084A3FD00C570FF /* View+MASAdditions.m */; };
+		87F621432084A3FD00C570FF /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F621372084A3FD00C570FF /* MASConstraint.m */; };
+		87F621442084A3FD00C570FF /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F621392084A3FD00C570FF /* MASViewConstraint.m */; };
+		87F621452084A3FD00C570FF /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F6213A2084A3FD00C570FF /* MASViewAttribute.m */; };
+		87F621462084A3FD00C570FF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87F6213B2084A3FD00C570FF /* Info.plist */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 /* End PBXBuildFile section */
 
@@ -279,13 +297,6 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
-		873587BF207DF69F00E2E6E0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 87358796207DF69F00E2E6E0 /* RecordVideo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8735877E207DF3DE00E2E6E0;
-			remoteInfo = RecordVideo;
-		};
 		ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
@@ -302,8 +313,6 @@
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
 		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
-		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* NewModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewModuleTests.m; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* NewModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -318,7 +327,49 @@
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		87358796207DF69F00E2E6E0 /* RecordVideo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RecordVideo.xcodeproj; path = "../node_modules/react-native-record-video/ios/RecordVideo.xcodeproj"; sourceTree = "<group>"; };
+		877B0FEE21ACDEF200A9FEF7 /* ESP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP.h; sourceTree = "<group>"; };
+		877B0FEF21ACDEF200A9FEF7 /* ESP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP.m; sourceTree = "<group>"; };
+		877B0FF121ACDF2600A9FEF7 /* ESP_NetUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_NetUtil.h; sourceTree = "<group>"; };
+		877B0FF221ACDF2600A9FEF7 /* ESPTouchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchResult.h; sourceTree = "<group>"; };
+		877B0FF321ACDF2600A9FEF7 /* ESPTouchTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchTask.h; sourceTree = "<group>"; };
+		877B0FF421ACDF2600A9FEF7 /* ESP_Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_Helper.m; sourceTree = "<group>"; };
+		877B0FF521ACDF2600A9FEF7 /* ESP_Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_Helper.h; sourceTree = "<group>"; };
+		877B0FF621ACDF2600A9FEF7 /* libEsptouch_v0.3.5.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEsptouch_v0.3.5.3.a; sourceTree = "<group>"; };
+		877B0FF721ACDF2600A9FEF7 /* ESPTouchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchDelegate.h; sourceTree = "<group>"; };
+		87A0B22621BE743500A37C11 /* BLETools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLETools.h; sourceTree = "<group>"; };
+		87A0B24C21BE743500A37C11 /* BLETools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLETools.m; sourceTree = "<group>"; };
+		87A0B24E21BE745F00A37C11 /* BLEModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEModule.h; sourceTree = "<group>"; };
+		87A0B24F21BE745F00A37C11 /* BLEModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEModule.m; sourceTree = "<group>"; };
+		87B11E402084A68C00D06E0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87B11E682084A69B00D06E0E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87B11E6A2084A6A400D06E0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87F621202084A3DD00C570FF /* esp.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = esp.pch; sourceTree = "<group>"; };
+		87F621222084A3FD00C570FF /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		87F621232084A3FD00C570FF /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		87F621242084A3FD00C570FF /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		87F621252084A3FD00C570FF /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		87F621262084A3FD00C570FF /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		87F621272084A3FD00C570FF /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		87F621282084A3FD00C570FF /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		87F621292084A3FD00C570FF /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		87F6212A2084A3FD00C570FF /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		87F6212B2084A3FD00C570FF /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		87F6212C2084A3FD00C570FF /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		87F6212D2084A3FD00C570FF /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		87F6212E2084A3FD00C570FF /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		87F6212F2084A3FD00C570FF /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		87F621302084A3FD00C570FF /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		87F621312084A3FD00C570FF /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		87F621322084A3FD00C570FF /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		87F621332084A3FD00C570FF /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		87F621342084A3FD00C570FF /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		87F621352084A3FD00C570FF /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		87F621362084A3FD00C570FF /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		87F621372084A3FD00C570FF /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		87F621382084A3FD00C570FF /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		87F621392084A3FD00C570FF /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		87F6213A2084A3FD00C570FF /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		87F6213B2084A3FD00C570FF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -327,7 +378,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873587C1207DF6D000E2E6E0 /* libRecordVideo.a in Frameworks */,
+				87B11E6B2084A6A400D06E0E /* Foundation.framework in Frameworks */,
+				877B0FF921ACDF2600A9FEF7 /* libEsptouch_v0.3.5.3.a in Frameworks */,
+				87B11E692084A69B00D06E0E /* CoreGraphics.framework in Frameworks */,
+				87B11E672084A68C00D06E0E /* UIKit.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
@@ -389,23 +443,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00E356EF1AD99517003FC87E /* NewModuleTests */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F21AD99517003FC87E /* NewModuleTests.m */,
-				00E356F01AD99517003FC87E /* Supporting Files */,
-			);
-			path = NewModuleTests;
-			sourceTree = "<group>";
-		};
-		00E356F01AD99517003FC87E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F11AD99517003FC87E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		139105B71AF99BAD00B5F7CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -434,8 +471,23 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
+				87F621212084A3FD00C570FF /* Masonry */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				87F621202084A3DD00C570FF /* esp.pch */,
+				87A0B22621BE743500A37C11 /* BLETools.h */,
+				87A0B24C21BE743500A37C11 /* BLETools.m */,
+				87A0B24E21BE745F00A37C11 /* BLEModule.h */,
+				87A0B24F21BE745F00A37C11 /* BLEModule.m */,
+				877B0FF521ACDF2600A9FEF7 /* ESP_Helper.h */,
+				877B0FF421ACDF2600A9FEF7 /* ESP_Helper.m */,
+				877B0FF121ACDF2600A9FEF7 /* ESP_NetUtil.h */,
+				877B0FF721ACDF2600A9FEF7 /* ESPTouchDelegate.h */,
+				877B0FF221ACDF2600A9FEF7 /* ESPTouchResult.h */,
+				877B0FF321ACDF2600A9FEF7 /* ESPTouchTask.h */,
+				877B0FF621ACDF2600A9FEF7 /* libEsptouch_v0.3.5.3.a */,
+				877B0FEE21ACDEF200A9FEF7 /* ESP.h */,
+				877B0FEF21ACDEF200A9FEF7 /* ESP.m */,
 			);
 			name = NewModule;
 			sourceTree = "<group>";
@@ -466,6 +518,9 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				87B11E6A2084A6A400D06E0E /* Foundation.framework */,
+				87B11E682084A69B00D06E0E /* CoreGraphics.framework */,
+				87B11E402084A68C00D06E0E /* UIKit.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 			);
 			name = Frameworks;
@@ -492,7 +547,6 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				87358796207DF69F00E2E6E0 /* RecordVideo.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -523,7 +577,6 @@
 			children = (
 				13B07FAE1A68108700A75B9A /* NewModule */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* NewModuleTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 			);
@@ -540,12 +593,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		87358797207DF69F00E2E6E0 /* Products */ = {
+		87F621212084A3FD00C570FF /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				873587C0207DF69F00E2E6E0 /* libRecordVideo.a */,
+				87F621222084A3FD00C570FF /* MASCompositeConstraint.h */,
+				87F621232084A3FD00C570FF /* NSLayoutConstraint+MASDebugAdditions.m */,
+				87F621242084A3FD00C570FF /* MASConstraint+Private.h */,
+				87F621252084A3FD00C570FF /* MASLayoutConstraint.h */,
+				87F621262084A3FD00C570FF /* NSArray+MASShorthandAdditions.h */,
+				87F621272084A3FD00C570FF /* MASConstraintMaker.h */,
+				87F621282084A3FD00C570FF /* View+MASAdditions.h */,
+				87F621292084A3FD00C570FF /* NSArray+MASAdditions.h */,
+				87F6212A2084A3FD00C570FF /* MASUtilities.h */,
+				87F6212B2084A3FD00C570FF /* MASViewAttribute.h */,
+				87F6212C2084A3FD00C570FF /* ViewController+MASAdditions.m */,
+				87F6212D2084A3FD00C570FF /* MASViewConstraint.h */,
+				87F6212E2084A3FD00C570FF /* MASConstraint.h */,
+				87F6212F2084A3FD00C570FF /* NSLayoutConstraint+MASDebugAdditions.h */,
+				87F621302084A3FD00C570FF /* MASCompositeConstraint.m */,
+				87F621312084A3FD00C570FF /* MASConstraintMaker.m */,
+				87F621322084A3FD00C570FF /* MASLayoutConstraint.m */,
+				87F621332084A3FD00C570FF /* NSArray+MASAdditions.m */,
+				87F621342084A3FD00C570FF /* View+MASAdditions.m */,
+				87F621352084A3FD00C570FF /* View+MASShorthandAdditions.h */,
+				87F621362084A3FD00C570FF /* Masonry.h */,
+				87F621372084A3FD00C570FF /* MASConstraint.m */,
+				87F621382084A3FD00C570FF /* ViewController+MASAdditions.h */,
+				87F621392084A3FD00C570FF /* MASViewConstraint.m */,
+				87F6213A2084A3FD00C570FF /* MASViewAttribute.m */,
+				87F6213B2084A3FD00C570FF /* Info.plist */,
 			);
-			name = Products;
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 		ADBDB9201DFEBF0600ED6528 /* Products */ = {
@@ -588,7 +666,7 @@
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = DCA89FKCPD;
+						DevelopmentTeam = TP828KFFRK;
 					};
 				};
 			};
@@ -651,10 +729,6 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-				},
-				{
-					ProductGroup = 87358797207DF69F00E2E6E0 /* Products */;
-					ProjectRef = 87358796207DF69F00E2E6E0 /* RecordVideo.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -917,13 +991,6 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		873587C0207DF69F00E2E6E0 /* libRecordVideo.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRecordVideo.a;
-			remoteRef = 873587BF207DF69F00E2E6E0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -940,6 +1007,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				87F621462084A3FD00C570FF /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -967,8 +1035,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F6213E2084A3FD00C570FF /* MASCompositeConstraint.m in Sources */,
+				87F621432084A3FD00C570FF /* MASConstraint.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				87A0B24D21BE743500A37C11 /* BLETools.m in Sources */,
+				87F6213D2084A3FD00C570FF /* ViewController+MASAdditions.m in Sources */,
+				87F621442084A3FD00C570FF /* MASViewConstraint.m in Sources */,
+				877B0FF821ACDF2600A9FEF7 /* ESP_Helper.m in Sources */,
+				87F621452084A3FD00C570FF /* MASViewAttribute.m in Sources */,
+				877B0FF021ACDEF200A9FEF7 /* ESP.m in Sources */,
+				87F6213C2084A3FD00C570FF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				87F6213F2084A3FD00C570FF /* MASConstraintMaker.m in Sources */,
+				87F621412084A3FD00C570FF /* NSArray+MASAdditions.m in Sources */,
+				87F621402084A3FD00C570FF /* MASLayoutConstraint.m in Sources */,
+				87F621422084A3FD00C570FF /* View+MASAdditions.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				87A0B25021BE745F00A37C11 /* BLEModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -993,9 +1075,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = DCA89FKCPD;
+				DEVELOPMENT_TEAM = TP828KFFRK;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/esp.pch";
 				INFOPLIST_FILE = NewModule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1011,9 +1099,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DCA89FKCPD;
+				DEVELOPMENT_TEAM = TP828KFFRK;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/esp.pch";
 				INFOPLIST_FILE = NewModule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
